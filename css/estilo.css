@@ -1,0 +1,95 @@
+/* GERAL */
+body {
+    font-family: 'Baloo Tamma 2','Manrope', cursive;
+    background-color: #e5e6e7;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 720;
+    /**/
+    padding: 12px;
+    margin: 15px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Baloo Tamma 2';
+/* */
+    padding: 0 40px;
+	text-indent: 45px;
+	text-align: justify;
+}
+
+footer {
+    background-color: #0b273f;
+	color: #e5e6e7;
+	margin: 30px 0;
+	padding: 30px 0;
+}
+
+figcaption{
+	font-size: small;
+	font-style: italic;
+	margin-top: 5px;
+}
+
+/* CABEÇALHO */
+.logo img {
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0b273f;
+    padding: 3px; /* 30 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em; /* em é uma medida responsiva */
+    padding: 2%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 5px 0; /* 10 e 0 */
+    width: 100%;
+    text-decoration: none;
+    color: rgb(230, 227, 227);
+}
+
+@media screen and (min-width: 768px) {
+    /* Cabeçalho */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+}
+
+
+
+
+
+/* Alternativa */
+#imgme {
+	float: left;
+	margin: 10px 10px 5px 10px; /* Superior, Direita, Inferior, Esquerda */
+    width: auto;
+    height: auto;
+}
