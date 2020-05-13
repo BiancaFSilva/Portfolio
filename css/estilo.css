@@ -6,26 +6,39 @@ body {
 
 h1, h2, h3 {
     margin: 0;
-    font-weight: 720;
-    /**/
+    font-weight: 700;
+    font-family:  'Baloo Tamma 2','Manrope', cursive;
+    /*
     padding: 12px;
     margin: 15px;
-    text-align: center;
+    text-align: center;*/
+}
+
+h1 {
+    font-size: 3em;
 }
 
 p {
     font-family: 'Baloo Tamma 2';
-/* */
+    text-indent: 45px;
+/* 
     padding: 0 40px;
 	text-indent: 45px;
-	text-align: justify;
+	text-align: justify;*/
 }
 
 footer {
     background-color: #0b273f;
 	color: #e5e6e7;
 	margin: 30px 0;
-	padding: 30px 0;
+    padding: 30px 0;
+    font-size: small;
+}
+
+footer img {
+	margin-right: 30px;
+	vertical-align: middle;
+	width: 94px;
 }
 
 figcaption{
@@ -39,16 +52,27 @@ figcaption{
     border-radius: 50%;
 }
 
+.container {
+    width: 100%;
+}
+
 nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0b273f;
-    padding: 3px; /* 30 */
+    background-color: #0b273f ; 
+    padding: 30px; 
+}
+
+nav > a {
+    text-decoration: none;
+    color: #e5e6e7;
+    font-weight: 700;
+    font-size: 28px;
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; 
     padding: 0;
     display: flex;
     align-items: center;
@@ -70,6 +94,175 @@ nav ul li a {
     color: rgb(230, 227, 227);
 }
 
+/* HEADER */
+header {
+    background-image: url('../img/backgroundimage.jpg'); /*  930x522 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e5e6e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+header p {
+    margin-bottom: 2em;
+    font-size: 1.7em;
+}
+
+.botao {
+    color:rgb(230, 227, 227) ;
+    background-color: #0b273f;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: .9em;
+    border-radius: 5px;
+}
+
+/* SOBRE */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #0b273f;
+}
+
+#sobre .botao {
+    margin-top: 20px;
+    background-color: #a5a5a5;
+}
+
+#sobre h2 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.foto img {
+    width: 60%;
+}
+
+.foto {
+    float: right;
+    width: 50%;
+}
+
+.texto {
+    float: left;
+    width: 50%;
+}
+
+.texto p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+/* Trabalhos e hobbies */
+#especial {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    color: #0b273f;
+}
+
+#especial div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    position: relative;
+    margin-top: 30px;
+}
+
+#especial p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#especial h2 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+#especial h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#especial img {
+    margin: 10px 0;
+}
+/* Competências Socioemocionais */
+#socio {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    color: #0b273f;
+}
+
+#socio p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#socio h2 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+#socio h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#socio img {
+    margin: 10px 0;
+}
+/* CONTATO */
+#contato {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    max-height: 30vh;
+    width: 100%;
+    /*background-color: #0b273f;
+	color: #e5e6e7; */
+}
+
+#contato p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#contato h2 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+#contato img {
+    margin: 10px 0;
+}
+
 @media screen and (min-width: 768px) {
     /* Cabeçalho */
     nav {
@@ -80,16 +273,58 @@ nav ul li a {
         flex-direction: row;
         width: 70%;
     }
+    /* Header */
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    /* Sobre */
+    #sobre {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: 90vh;
+        justify-content: center;
+        min-height: 80vh;
+    }
+    #sobre h2 {
+        text-align: center;
+        width: 100%;
+    }
+    #sobre div {
+        flex-grow: 1;
+        flex-basis: 300px;
+        padding: 0 10px;
+    }
+    /* Especialidades */
+    #especial {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #especial h2 {
+        text-align: center;
+        width: 100%;
+    }
+    #especial div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    /* Competências Socioemocionais */
+    #socio {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    /* Contato */
 }
 
 
 
 
-
-/* Alternativa */
-#imgme {
-	float: left;
-	margin: 10px 10px 5px 10px; /* Superior, Direita, Inferior, Esquerda */
-    width: auto;
-    height: auto;
-}
