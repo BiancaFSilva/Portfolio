@@ -1,1 +1,2 @@
-Site criado para fazer papel de currículo
+#HTML #CSS
+Site criado  como complemento curricular.
