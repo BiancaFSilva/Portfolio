@@ -4,6 +4,9 @@ body {
     background-color: #e5e6e7;
 }
 
+.container {
+    width: 100%;
+}
 h1, h2, h3 {
     margin: 0;
     font-weight: 700;
@@ -27,20 +30,6 @@ p {
 	text-align: justify;*/
 }
 
-footer {
-    background-color: #0b273f;
-	color: #e5e6e7;
-	margin: 30px 0;
-    padding: 30px 0;
-    font-size: small;
-}
-
-footer img {
-	margin-right: 30px;
-	vertical-align: middle;
-	width: 94px;
-}
-
 figcaption{
 	font-size: small;
 	font-style: italic;
@@ -52,9 +41,7 @@ figcaption{
     border-radius: 50%;
 }
 
-.container {
-    width: 100%;
-}
+
 
 nav {
     display: flex;
@@ -71,15 +58,17 @@ nav > a {
     font-size: 28px;
 }
 
-.logo nov ul {
+nav ul {
     list-style: none; 
     padding: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
 nav ul li {
+    text-indent: 0px;    
     text-align: center;
     width: 100%;
     font-size: 1.5em; /* em é uma medida responsiva */
@@ -204,34 +193,42 @@ header p {
 }
 /* Competências Socioemocionais */
 #socio {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 0 auto;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: #0b273f;
 }
 
 #socio p {
     line-height: 1.5;
-    margin: 2vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 1.2em;
     text-align: justify;
 }
 
 #socio h2 {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 2em;
 }
 
 #socio h3 {
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     font-size: 1.5em;
 }
 
 #socio img {
     margin: 10px 0;
+}
+
+#socio a {
+    text-decoration: none;
 }
 /* CONTATO */
 #contato {
@@ -247,8 +244,8 @@ header p {
     color: rgb(230, 227, 227);*/
 }
 
-#contato p {
-    line-height: 1.5;
+#contato > p {
+    line-height: 1.3;
     margin: 2vh;
     font-size: 1.2em;
     text-align: justify;
@@ -265,7 +262,10 @@ header p {
 
 #contato h2 {
     margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     font-size: 2em;
+    text-align: center;  
 }
 
 #contato .cntt {
@@ -285,6 +285,23 @@ header p {
 #contato img {
     margin: 10px 0;
 }
+
+footer {
+    background-color: #0b273f;
+    width: 100%;
+	color: #e5e6e7;
+	margin: 30px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: small;
+}
+
+footer img {
+	margin-right: 30px;
+	vertical-align: middle;
+	width: 94px;
+}
+
 
 @media screen and (min-width: 768px) {
     /* Cabeçalho */
@@ -345,7 +362,25 @@ header p {
         max-width: 1000px;
         margin: 0 auto;
     }
+    #socio h2, #socio h3 {
+        width: 100%;
+        text-align: center;
+    }
     /* Contato */
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+        max-height: 30vh;
+        margin: 0 auto;
+        justify-content: space-around;    
+        text-align: center;                
+    }
+    #contato h2, #contato p {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
