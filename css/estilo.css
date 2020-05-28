@@ -375,8 +375,8 @@ footer img {
     }
     /* Header */
     header {
-        height: 600px;
-        height: 60vh;
+        height: 500px;
+        height: 50vh;
         justify-content: center;
         color: #0b273f;
     }
