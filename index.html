@@ -7,121 +7,126 @@
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
         <link rel="icon" href="img/favicon.png"> <!-- Favicon 144px, 144px -->
         <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">    
     </head>
     <body>
-        <nav class="logo">
-            <a href="index.html"> <img src="img/allogo.png"> </a>
-            <ul>
-                <li> <a href="#sobre">Sobre</a> </li>
-                <li> <a href="#especial">Trabalhos e Hobbies</a> </li>
-                <li> <a href="#socio">Competências Socioemocionais</a> </li>
-                <li> <a href="#projeto">Projetos</a> </li>
-                <li> <a href="#contato">Contato</a> </li>
-            </ul>
-        </nav>
-        <header>  
-            <h1>Bianca Letícia</h1>
-            <a class="botao" href="https://www.linkedin.com/in/bianca-letícia-f-da-silva-3453291a1" target="_blank">Linkedin</a>
-            <br>
-        </header>
-        <div class="container">
-            <section id="sobre"> 
-                <h2>Quem sou?</h2>
-                <div class="foto"> <img src="img/mee.png" alt="Bianca"> </div>
-                <div class="texto">
-                    <p> Me chamo Bianca Letícia Floriano da Silva, tenho 16 anos e atualmente estou cursando o Técnico em Informatica para a Internet Integrado ao Ensino Médio na Etec Prof.ª Maria Cristina Medeiros de Ribeirão Pires. </p>
-                    <p> Embora não seja tão boa em determinadas áreas tento me esforçar para conseguir o melhor. Sempre me interessei pela área tecnológica principalmente na parte de design gráfico, programação e desenvolvimento de sites. </p> <br>
-                </div>                                
-            </section>
-            <section id="especial">
-                <h2>Trabalhos e hobbies</h2>
-                <div>
-                    <img src="img/arte.png" alt="Interesse artístico">
-                    <h3>Interesse artístico</h3> 
-                    <p> Desenhos, poesias, paródias e pinturas utilizando diferentes estilos e temas. </p>
-                </div>  
-                <div>
-                    <img src="img/programar.png" alt="Programação">
-                    <h3>Programação</h3> 
-                    <p> Desenvolvimento de códigos utilizando: C#, PHP, Python, Portugol, HTML, CSS, JavaScript, JQuery, entre outras.  </p>
-                </div>  
-                <div>
-                    <img src="img/edicao.png" alt="Edição">
-                    <h3>Edição</h3>
-                    <p> Edição e conversão de imagens, animações, áudios e vídeos utilizando diversos programas e plataformas. </p>
-                </div> 
-                
-                <div>
-                    <img src="img/Office.png" alt="Pacote Office">
-                    <h3>Pacote Office</h3> 
-                    <p> Word, PowerPoint, Excel, Access, Sway e Publisher. </p>
-                </div>    
-                <div>
-                    <img src="img/siteapp.png" alt="Desenvolvimento de sites e aplicativos">
-                    <h3>Sites e Apps</h3> 
-                    <p> Criação e desenvolvimento de sites e aplicativos responsivos para diversas plataformas. </p>
-                </div>            
-                <div>
-                    <img src="img/banco de dados.png" alt="Banco de Dados">
-                    <h3>Banco de Dados</h3> 
-                    <p> Criação, edição e análise de bandos de dados relacionais e não relacionais. </p>
-                </div> 
-            </section>
-            <section id="socio">
-                <h2>Competências Socioemocionais</h2>
-                <h4><a href="docs/eixoscompetencias.pdf" target="_blank">Competências pela BNCC</a></h4>
-                <div class="soc">
-                    <img src="img/inteligente.png" alt="Abertura ao novo">
-                    <h3> Abertura ao novo </h3> 
-                    <p> Sou muito disposta a aprender e conhecer novas áreas e assuntos, procuro sempre pesquisar, ler, ouvir podcasts e músicas, assistir documentários e vídeos para expandir meus conhecimentos. </p>
-                </div>
-                <div class="soc">
-                    <img src="img/autogestao.png" alt="Autogestão">
-                    <h3> Autogestão e Autonomia </h3> 
-                    <p> Sou um pessoa organizada, focada, flexível porém crítica, resiliente e responsável, gosto de trabalhar em projetos e estou sempre buscando melhorias e visando o benefício pessoal e coletivo de forma sustentável e prática.  </p>
-                </div>
-                <div class="soc">
-                    <img src="img/coopera.png" alt="Consciência e cooperação">
-                    <h3> Consciência e cooperação </h3> 
-                    <p> Prezo pelo diálogo para resolver qualquer situação, evitando julgamentos, reconhecendo meus erros e aceitando diferentes opiniões e críticas. Respeito e valorizo a diversidade. </p>
-                </div>
-                <h2 id="projeto">Projetos</h2>
-                    <div class="soc proj">
-                        <a href="https://biancalesilva.000webhostapp.com/" target="_blank"><img src="img/projeto.jpg" alt=" "></a>
-                        <h3> Projeto 1 </h3> 
-                        <p> Descrição do projeto. </p>
-                    </div>
-                    <div class="soc proj">
-                        <a href="#" target="_blank"><img src="img/projeto.jpg" alt=" "></a>
-                        <h3> Projeto 2 </h3> 
-                        <p> Descrição do projeto. </p>
-                    </div>
-                    <div class="soc proj">
-                        <a href="#" target="_blank"><img src="img/projeto.jpg" alt=" "></a>
-                        <h3> Projeto 3 </h3> 
-                        <p> Descrição do projeto. </p>
-                    </div>
-            </section>
-            <section id="contato">
+        <div id="carregando"></div>
+        <div id="conteudo">
+            <nav class="logo">
+                <a href="index.html"> <img src="img/allogo.png" alt="Logo"> </a>
+                <ul>
+                    <li> <a href="#sobre">Sobre</a> </li>
+                    <li> <a href="#especial">Trabalhos e Hobbies</a> </li>
+                    <li> <a href="#socio">Competências Socioemocionais</a> </li>
+                    <li> <a href="#projeto">Projetos</a> </li>
+                    <li> <a href="#contato">Contato</a> </li>
+                </ul>
+            </nav>
+            <header>  
+                <h1>Bianca Letícia</h1>
+                <a class="botao" href="https://www.linkedin.com/in/bianca-letícia-f-da-silva-3453291a1" target="_blank">Linkedin</a>
                 <br>
-                <h2>Contato</h2>
-                <p>Entre em contato pelos seguintes canais: </p>
-                    <ul class="cntt">     
-                        <li><a href="https://www.linkedin.com/in/bianca-let%C3%ADcia-f-da-silva-3453291a1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfnfdTnR0Qp26TYKAHnGIiw%3D%3D"><img src="img/linkedin-icon.png" alt="Linkedin"> Linkedin </a></li> 
-                        <li><a href="https://github.com/BiancaFSilva"><img src="img/github-icon.png" alt="Github"> Github </a></li> 
-                        <li><a href="https://www.facebook.com/profile.php?id=100007384352108&epa=SEARCH_BOX"><img src="img/facebook-icon.png" alt="Facebook"> Facebook </a></li> 
-                    </ul>
-                    <ul class="redes">  
-                        <li><a href="https://api.whatsapp.com/send?phone=5511999678186"><img src="img/whatsapp-icon.png" alt="WhatsApp"> WhatsApp </a></li>   
-                        <li><a href="https://www.instagram.com/_bianca.zip/?hl=pt-br"><img src="img/instagram-icon.png" alt="Instagram"> Instagram </a></li>       
-                        <li><a href="https://twitter.com/BiancaLetcia2"><img src="img/twitter-icon.png" alt="Twitter"> Twitter </a></li>         
-                    </ul>   
-                    <a href="mailto:biancaflorianodasilva@gmail.com"><img src="img/gmail-icon.png" alt="">biancaflorianodasilva@gmail.com</a><br> 
-            </section>
+
+                <iframe data-src = "// www.youtube.com/embed/ZfV-aYdU4uE" class = "lazyload" frameborder = "0" allowfullscreen> </iframe>
+            </header>
+            <div class="container">
+                <section id="sobre"> 
+                    <h2>Quem sou?</h2>
+                    <div class="foto"> <img src="img/mee.png" alt="Bianca"> </div>
+                    <div class="texto">
+                        <p> Me chamo Bianca Letícia Floriano da Silva, tenho 16 anos e atualmente estou cursando o Técnico em Informatica para a Internet Integrado ao Ensino Médio na Etec Prof.ª Maria Cristina Medeiros de Ribeirão Pires. </p>
+                        <p> Embora não seja tão boa em determinadas áreas tento me esforçar para conseguir o melhor. Sempre me interessei pela área tecnológica principalmente na parte de design gráfico, programação e desenvolvimento de sites. </p> 
+                    </div>                                
+                </section>
+                <section id="especial">
+                    <h2>Trabalhos e hobbies</h2>
+                    <div>
+                        <img src="img/arte.png" alt="Interesse artístico">
+                        <h3>Interesse artístico</h3> 
+                        <p> Desenhos, poesias, paródias e pinturas utilizando diferentes estilos e temas. </p>
+                    </div>  
+                    <div>
+                        <img src="img/programar.png" alt="Programação">
+                        <h3>Programação</h3> 
+                        <p> Desenvolvimento de códigos utilizando: C#, PHP, Python, Portugol, HTML, CSS, JavaScript, JQuery, entre outras.  </p>
+                    </div>  
+                    <div>
+                        <img src="img/edicao.png" alt="Edição">
+                        <h3>Edição</h3>
+                        <p> Edição e conversão de imagens, animações, áudios e vídeos utilizando diversos programas e plataformas. </p>
+                    </div> 
+                    
+                    <div>
+                        <img src="img/Office.png" alt="Pacote Office">
+                        <h3>Pacote Office</h3> 
+                        <p> Word, PowerPoint, Excel, Access, Sway e Publisher. </p>
+                    </div>    
+                    <div>
+                        <img src="img/siteapp.png" alt="Desenvolvimento de sites e aplicativos">
+                        <h3>Sites e Apps</h3> 
+                        <p> Criação e desenvolvimento de sites e aplicativos responsivos para diversas plataformas. </p>
+                    </div>            
+                    <div>
+                        <img src="img/banco de dados.png" alt="Banco de Dados">
+                        <h3>Banco de Dados</h3> 
+                        <p> Criação, edição e análise de bandos de dados relacionais e não relacionais. </p>
+                    </div> 
+                </section>
+                <section id="socio">
+                    <h2>Competências Socioemocionais</h2>
+                    <h4><a href="docs/eixoscompetencias.pdf" target="_blank">Competências pela BNCC</a></h4>
+                    <div class="soc emo">
+                        <img src="img/inteligente.png" alt="Abertura ao novo">
+                        <h3> Abertura ao novo </h3> 
+                        <p> Sou muito disposta a aprender e conhecer novas áreas e assuntos, procuro sempre pesquisar, ler, ouvir podcasts e músicas, assistir documentários e vídeos para expandir meus conhecimentos. </p>
+                    </div>
+                    <div class="soc emo">
+                        <img src="img/autogestao.png" alt="Autogestão">
+                        <h3> Autogestão e Autonomia </h3> 
+                        <p> Sou um pessoa organizada, focada, flexível porém crítica, resiliente e responsável, gosto de trabalhar em projetos e estou sempre buscando melhorias e visando o benefício pessoal e coletivo de forma sustentável e prática.  </p>
+                    </div>
+                    <div class="soc emo">
+                        <img src="img/coopera.png" alt="Consciência e cooperação">
+                        <h3> Consciência e cooperação </h3> 
+                        <p> Prezo pelo diálogo para resolver qualquer situação, evitando julgamentos, reconhecendo meus erros e aceitando diferentes opiniões e críticas. Respeito e valorizo a diversidade. </p>
+                    </div>
+                    <h2 id="projeto">Projetos</h2>
+                        <div class="soc proj">
+                            <a href="https://biancalesilva.000webhostapp.com/" target="_blank"><img src="img/projeto.jpg" alt=" "></a>
+                            <h3> Projeto 1 </h3> 
+                            <p> Descrição do projeto. </p>
+                        </div>
+                        <div class="soc proj">
+                            <a href="#" target="_blank"><img src="img/projeto.jpg" alt=" "></a>
+                            <h3> Projeto 2 </h3> 
+                            <p> Descrição do projeto. </p>
+                        </div>
+                        <div class="soc proj">
+                            <a href="#" target="_blank"><img src="img/projeto.jpg" alt=" "></a>
+                            <h3> Projeto 3 </h3> 
+                            <p> Descrição do projeto. </p>
+                        </div>
+                </section>
+                <section id="contato">
+                    <br>
+                    <h2>Contato</h2>
+                    <p>Entre em contato pelos seguintes canais: </p>
+                        <div class="cntt">     
+                            <a href="https://www.linkedin.com/in/bianca-let%C3%ADcia-f-da-silva-3453291a1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfnfdTnR0Qp26TYKAHnGIiw%3D%3D"><img src="img/linkedin-icon.png" alt="Linkedin"> Linkedin </a>
+                            <a href="https://github.com/BiancaFSilva"><img src="img/github-icon.png" alt="Github"> Github </a>
+                            <a href="https://www.facebook.com/profile.php?id=100007384352108&epa=SEARCH_BOX"><img src="img/facebook-icon.png" alt="Facebook"> Facebook </a> 
+                        </div>
+                        <div class="redes">  
+                            <a href="https://api.whatsapp.com/send?phone=5511999678186"><img src="img/whatsapp-icon.png" alt="WhatsApp"> WhatsApp </a>   
+                            <a href="https://www.instagram.com/_bianca.zip/?hl=pt-br"><img src="img/instagram-icon.png" alt="Instagram"> Instagram </a>       
+                            <a href="https://twitter.com/BiancaLetcia2"><img src="img/twitter-icon.png" alt="Twitter"> Twitter </a>         
+                        </div>   
+                        <a href="mailto:biancaflorianodasilva@gmail.com"><img src="img/gmail-icon.png" alt="">biancaflorianodasilva@gmail.com</a>
+                </section>
+            </div>
+            <footer>
+                <p><img src="img/mlogo.png" alt="Logo Bianca Silva">&copy;Bianca Silva, 2020</p>
+            </footer>
         </div>
-        <footer>
-            <img src="img/mlogo.png" alt="Logo Bianca Silva">&copy;Bianca Silva, 2020
-        </footer>
     </body>
 </html>
