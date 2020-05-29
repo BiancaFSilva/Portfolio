@@ -80,7 +80,7 @@ nav ul li a {
 
 /* HEADER */
 header {
-    background-image: url('../img/backgroundimage.jpg'); /*  930x522 */
+    background-image: url('../img/background-image.jpg'); /*  930x522 */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ header p {
 
 #sobre .foto {
     float: right;
-    width: 65%;
+    width: 75%;
     margin-bottom: 20px;
 }
 
@@ -176,7 +176,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
+    text-align: center;
     position: relative;
     margin-top: 30px;
 }
@@ -191,15 +191,18 @@ header p {
 #especial h2 {
     margin-top: 10px;
     font-size: 2em;
+    text-align: center;
 }
 
 #especial h3 {
     margin-top: 20px;
     font-size: 1.5em;
+    text-align: center;
 }
 
 #especial img {
     margin: 10px 0;
+    width: 50%;
     border-radius: 50%;
     border: 3px groove #0b273f;
 }
@@ -236,12 +239,14 @@ header p {
     margin-top: 20px;
     margin-bottom: 5px;
     font-size: 2em;
+    text-align: center;
 }
 
 #socio h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 1.5em;
+    text-align: center;
 }
 
 #socio h4 {
@@ -251,22 +256,32 @@ header p {
     text-align: center; 
 }
 
+#socio iframe {
+    border-radius: 7%;
+    align-items: center;    
+    border: 3px groove #0b273f;    
+    margin: 10px auto;
+    width: 60%;
+    height: 50%;
+}
+
 #socio img {
-    align-items: center;
-    width: 80%;
-    margin: 10px 0;
+    align-items: center;    
+    margin: 10px auto;
 }
 
 .emo img {
     border: 3px groove #0b273f;
     border-radius: 50%;
-    margin: 10px 0;
+    margin: 10px 0; 
+    width: 50%;   
 }
 
 .proj img {
     border: 3px groove #0b273f;
     border-radius: 7%;
-    margin: 0 10px;
+    margin: 10px auto;
+    width: 80%;
 }
 .proj img:hover {
     -ms-transform: rotate(10deg);
@@ -278,6 +293,8 @@ header p {
 
 #socio a {
     text-decoration: none;
+    margin: 10px auto;
+    align-items: center;
 }
 /* CONTATO */
 #contato {
@@ -349,6 +366,7 @@ footer {
     padding: 25px;
     font-size: small;
     text-align: justify;
+    text-indent: 0px;
 }
 
 footer img {
@@ -387,9 +405,9 @@ footer img {
         align-items: flex-start;
         max-width: 1000px;
         margin: auto;
-        height: 10vh;
+        height: 55vh;
         justify-content: center;
-        min-height: 80vh;
+        min-height: 60vh;
     }
     #sobre div {
         flex-grow: 1;
@@ -421,6 +439,12 @@ footer img {
         flex-grow: 1;
         flex-basis: 150px;
         padding: 0 10px;
+    }
+    #especial p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
     }
     /* Competências Socioemocionais */
     #socio {
@@ -473,8 +497,9 @@ footer img {
         text-align: justify;
     }
     footer {
+        width: 100%;
         margin: 0;
-        text-align: justify;
+        text-align: justify; 
         padding: 30 25px;
     }
 }
