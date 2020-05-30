@@ -84,7 +84,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #2e1241;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,7 +176,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     position: relative;
     margin-top: 30px;
 }
@@ -431,20 +431,14 @@ footer img {
         max-width: 1000px;
         margin: 0 auto;
     }
-    #especial h2 {
+    #especial h2, h3 {
         text-align: center;
         width: 100%;
     }
-    #especial div {
-        flex-grow: 1;
-        flex-basis: 150px;
-        padding: 0 10px;
-    }
-    #especial p {
-    line-height: 1.5;
-    margin: 2vh;
-    font-size: 1.2em;
-    text-align: justify;
+    #especial div {   
+        width: 30.90%;
+        text-align: center;
+        margin: 0 auto;
     }
     /* Competências Socioemocionais */
     #socio {
@@ -468,6 +462,7 @@ footer img {
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
+        padding: 0 auto;
         max-height: 30vh;
         margin: 0;
         justify-content: space-around;    
@@ -475,13 +470,14 @@ footer img {
     }
     #contato h2, p {
         width: 100%;
+        max-width: 800px;
         text-align: center;
         max-width: 1000px;
         margin: 0 auto;
     }
     #contato div{
         padding: 0 10px;
-        max-width: 1000px;
+        max-width: 800px;
         margin: 0;
     }
     #contato .cntt {
