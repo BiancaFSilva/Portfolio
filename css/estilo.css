@@ -257,13 +257,8 @@ header p {
     text-align: center; 
 }
 
-#socio iframe {
-    border-radius: 7%;
-    align-items: center;    
-    border: 3px groove #0b273f;    
-    margin: 10px auto;
-    width: 60%;
-    height: 50%;
+iframe {
+    border-radius: 7%;   
 }
 
 #socio img {
@@ -296,6 +291,38 @@ header p {
     text-decoration: none;
     margin: 10px auto;
     align-items: center;
+}
+
+#hobby {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0 20px;
+    color: #0b273f;
+}
+
+.hobby {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.hobby h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.hobby p {
+    line-height: 1.5;
+    margin: 2vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: justify;
 }
 /* CONTATO */
 #contato {
@@ -457,6 +484,21 @@ footer img {
         width: 30.90%;
         text-align: center;
         margin: 0 auto;
+    }
+    #hobby {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .hobby{
+        width: 47%;
+        margin: 0 auto;
+    }
+    #hobby h3 {
+        width: 100%;
+        text-align: center;
     }
     /* Contato */
     #contato {
