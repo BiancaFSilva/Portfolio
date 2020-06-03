@@ -11,6 +11,15 @@ body {
 ::selection { background: rgb(91, 79, 172); color: #fff; } 
 ::-moz-selection { background: rgb(91, 79, 172); color: #fff; }
 
+a[href="#top"]{
+    text-decoration:none;
+    padding:6px;
+    position:fixed;
+    top: 92%;
+    right: 1%;
+    display: flex;
+}
+
 .container {
     width: 100%;
 }
