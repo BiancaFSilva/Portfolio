@@ -328,13 +328,12 @@ iframe {
 #contato {
     background-color: #2e1241;
     color: #fff;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    max-width: 100%;
+    padding-top: 20px;
     margin: 0;
-    text-align: center;
-    max-height: 30vh;
+    align-items: justify;
     width: 100%;
 }
 
@@ -343,42 +342,26 @@ iframe {
     margin: 2vh;
     font-size: 1.2em;
     text-align: justify;
+    text-indent: 0%;
 }
 
 #contato a {
     display: inline-block;
-    padding: 0; 
-    width: 90%;
     text-decoration: none;
+    padding: 0 10px; 
+    width: 90%;    
     color: #fff; 
     line-height: .1;
     margin: 0;/*2vh;*/
     font-size: 1.2em;
-    text-align: center; 
+    text-align: justify; 
+    text-indent: 3em;
 }
 
 #contato h2 {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
     font-size: 2em;
     text-align: center;  
-}
-
-#contato .cntt {
-    float: left;
-    width: 45%;
-    text-align: justify;
-    vertical-align: middle;
-    line-height: auto;
-}
-
-#contato .redes {
-    float: right;
-    width: 45%;
-    text-align: justify;
-    vertical-align: middle;
-    line-height: auto;
 }
 
 #contato img {
@@ -388,12 +371,10 @@ iframe {
 
 footer {
     background-color: #2e1241;
-    width: 100%;
     color: #e5e6e7; 
-    margin: 0;
-    padding: 25px;
+    padding: 30px;
     font-size: small;
-    text-align: justify;
+    text-align: center;
     text-indent: 0px;
 }
 
@@ -496,50 +477,54 @@ footer img {
         width: 47%;
         margin: 0 auto;
     }
-    #hobby h3 {
+    .hobby h3 {
         width: 100%;
         text-align: center;
+    }
+    .hobby p {
+        line-height: 1.5;
+        margin: 2vh;
+        text-align: justify;
     }
     /* Contato */
     #contato {
+        justify-content: space-around;   
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
-        padding: 0 auto;
-        max-height: 30vh;
-        margin: 0;
-        justify-content: space-around;    
-        text-align: center;                
-    }
-    #contato h2, p {
-        width: 100%;
-        max-width: 800px;
+        align-items: center;
         text-align: center;
+        width: 100%;        
+        padding: 0 auto;
+        max-height: 45vh;
+        margin: 0;         
+             
+    }
+    #contato h2, #contato p {
+        width: 100%;
         max-width: 1000px;
+        text-align: center;
         margin: 0 auto;
     }
     #contato div{
-        padding: 0 10px;
-        max-width: 800px;
-        margin: 0;
-    }
+        flex-direction: center;
+        padding: 0 50px;
+        width: 100%;
+        align-items: center;
+    } 
     #contato .cntt {
-        float: left;
-        margin-left: 0;
-        width: 45.5%;
+        width: 30%;
+        padding: 0 10%;
         text-align: justify;
     }
     #contato .redes {
-        float: right;
-        margin-left: 0;
-        width: 45.5%;
+        width: 30%;
+        padding: 0 10%;
         text-align: justify;
     }
-    footer {
-        width: 100%;
-        margin: 0;
-        text-align: justify; 
-        padding: 30 25px;
+    #contato .mail {
+        padding: 0 20px;
+        text-align: justify;
+        width: 45%;
     }
 }
 
