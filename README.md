@@ -1,2 +1,3 @@
 # HTML, CSS e JS
-Site criado  como complemento curricular e hospedado no 000webhost.
+Site desenvolvido como complemento curricular para a matéria de Desenvolvimento e Design de Websites (DDW)
+  - https://biancalesilva.000webhostapp.com/
