@@ -1,10 +1,11 @@
 /* GERAL */
+
 body {
     font-family: 'Baloo Tamma 2','Manrope', cursive;
     background-color: rgb(255, 255, 255);
 }
 
-::-webkit-scrollbar { width:12px; height: 10px; }  
+::-webkit-scrollbar { width:15px; height: 10px; }  
 ::-webkit-scrollbar-track { background:#b7a5d4; }   
 ::-webkit-scrollbar-thumb { background: #2e1241; }
 ::-webkit-scrollbar-corner { background-color: #2e1241; }
@@ -24,7 +25,7 @@ a[href="#top"]{
 .container {
     width: 100%;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: 700;
     font-family:  'Baloo Tamma 2','Manrope', cursive;
@@ -64,7 +65,7 @@ nav {
     flex-direction: column;
     align-items: center;
     background-color: #2e1241 ; 
-    padding: 30px; 
+    padding: 25px; 
 }
 
 nav > a {
@@ -91,8 +92,8 @@ nav ul li {
     text-indent: 0px;    
     text-align: center;
     width: 100%;
-    font-size: 1.5em; /* em é uma medida responsiva */
-    padding: 2%;
+    font-size: 1.4em; /* em é uma medida responsiva */
+    padding: 1%;
 }
 
 nav ul li a {
@@ -105,7 +106,7 @@ nav ul li a {
 
 /* HEADER */
 header {
-    background-image: url('../img/background-image.jpg'); /*  930x522 */
+    background: linear-gradient(#2e1241, #ffffff);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -296,6 +297,7 @@ iframe {
 }
 
 .proj img {
+    align-items: center;   
     border: 3px groove #0b273f;
     border-radius: 7%;
     margin: 10px auto;
@@ -420,8 +422,8 @@ footer img {
     html { scroll-behavior: smooth; }
     /* Cabeçalho */
     nav {
-        height: 90px;
-        height: 9vh;
+        height: 60px;
+        height: 6vh;
         flex-direction: row;
         justify-content: space-around;
     }
@@ -431,6 +433,7 @@ footer img {
     }
     .logo img {
         width: 65%;
+        vertical-align: middle;
     }
     /* Header */
     header {
@@ -536,7 +539,7 @@ footer img {
         text-align: center;
         margin: 0 auto;
         padding: 0 auto;
-    }     
+    }    
     #contato div{
         padding: 0 auto;
         width: 100%;
