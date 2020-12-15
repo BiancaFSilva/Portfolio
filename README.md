@@ -1,3 +1,6 @@
+<p align="center"> <img width="15%" src="./img/allogo.png"></img> </p>
+<h3 align="center">Bianca Silva</h3>
+
 <p align="center">
     <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/BiancaFSilva/Site">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/BiancaFSilva/Site">
