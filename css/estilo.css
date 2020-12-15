@@ -235,13 +235,15 @@ header p {
 }
 /* Competências Socioemocionais */
 #socio {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0 ;
     color: #0b273f;
+    background-color: #D3DBFF;
 }
 
 #socio div {
@@ -275,6 +277,53 @@ header p {
 }
 
 #socio h4 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center; 
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    color: #0b273f;
+}
+
+#projetos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    position: relative;
+    margin-top: 30px;
+}
+
+#projetos p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#projetos h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#projetos h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#projetos h4 {
     margin-bottom: 20px;
     margin-top: 10px;
     font-size: 1.2em;
@@ -489,14 +538,31 @@ footer img {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        max-width: 1000px;
         margin: 0 auto;
+        padding: 20px 28rem;
     }
     #socio h2, h3, h4 {
         width: 100%;
         text-align: center;
     }
     #socio .soc {
+        align-items: center;
+        width: 30.90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #projetos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #projetos h2, h3, h4 {
+        width: 100%;
+        text-align: center;
+    }
+    #projetos .soc {
         align-items: center;
         width: 30.90%;
         text-align: center;
