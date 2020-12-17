@@ -3,12 +3,13 @@
 body {
     font-family: 'Baloo Tamma 2','Manrope', cursive;
     background-color: rgb(255, 255, 255);
-}
+} 
 
 ::-webkit-scrollbar { width:15px; height: 10px; }  
-::-webkit-scrollbar-track { background:#b7a5d4; }   
-::-webkit-scrollbar-thumb { background: #2e1241; }
-::-webkit-scrollbar-corner { background-color: #2e1241; }
+::-webkit-scrollbar-track { background:#d3dbff; }   
+::-webkit-scrollbar-thumb { background: #2e1241; transition: 2s; }
+::-webkit-scrollbar-thumb:hover { background: #43d8c9; transition-timing-function: ease-in-out; }
+::-webkit-scrollbar-corner { background-color: #d3dbff; }
 
 ::selection { background: rgb(91, 79, 172); color: #fff; } 
 ::-moz-selection { background: rgb(91, 79, 172); color: #fff; }
@@ -104,13 +105,23 @@ nav ul li a {
     color: #fff;
 }
 
+.verde {
+    width: 100%;
+    background-color: #cffffe;
+}
+
+.roxo {
+    width: 100%;
+    background-color: #d3dbff;
+}
+
 /* HEADER */
 header {
-    background: linear-gradient(#2e1241, #ffffff);
+    background: linear-gradient(#2e1241, #cffffe);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #2e1241;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -243,7 +254,6 @@ header p {
     padding: 20px;
     margin: 0 ;
     color: #0b273f;
-    background-color: #D3DBFF;
 }
 
 #socio div {
@@ -489,7 +499,7 @@ footer img {
         height: 500px;
         height: 50vh;
         justify-content: center;
-        color: #0b273f;
+        color: #fff;
     }
     /* Sobre */
     #sobre {
@@ -498,6 +508,7 @@ footer img {
         align-items: flex-start;
         max-width: 1000px;
         margin: auto;
+        padding: auto;
         height: 55vh;
         justify-content: center;
         min-height: 60vh;
@@ -538,8 +549,8 @@ footer img {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
+        max-width: 1000px;
         margin: 0 auto;
-        padding: 20px 28rem;
     }
     #socio h2, h3, h4 {
         width: 100%;
