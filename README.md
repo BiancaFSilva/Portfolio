@@ -10,7 +10,10 @@
 
 ---
 
-![SiteResponsivo](https://user-images.githubusercontent.com/60801421/83779178-02129700-a662-11ea-94a4-fb6322144df7.jpg)
+<p align="center"> 
+    <img width="65%" src="https://user-images.githubusercontent.com/60801421/102545391-f124f280-4094-11eb-8e90-2ae074b8b2c0.png"></img> 
+    <img width="15%" src="https://user-images.githubusercontent.com/60801421/102546555-97bdc300-4096-11eb-9518-00712d730919.jpeg"></img> 
+</p>    
 
 <h5 align="center">
 <a href="https://biancafsilva.github.io/Site/#sobre">Sobre</a> - <a href="https://biancafsilva.github.io/Site/#especial">Trabalhos e Hobbies</a> - <a href="https://biancafsilva.github.io/Site/#socio">Competências Socioemocionais</a> - <a href="https://biancafsilva.github.io/Site/#projeto">Projetos</a> - <a href="https://biancafsilva.github.io/Site/#contato">Contato</a>
