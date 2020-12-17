@@ -16,8 +16,7 @@
 <a href="https://biancafsilva.github.io/Site/#sobre">Sobre</a> - <a href="https://biancafsilva.github.io/Site/#especial">Trabalhos e Hobbies</a> - <a href="https://biancafsilva.github.io/Site/#socio">Competências Socioemocionais</a> - <a href="https://biancafsilva.github.io/Site/#projeto">Projetos</a> - <a href="https://biancafsilva.github.io/Site/#contato">Contato</a>
 </h5>
 
-Site também disponível no  [000webhost](https://biancalesilva.000webhostapp.com/)
-
+---
 
 ## Objetivo 
 Site responsivo desenvolvido como complemento curricular para a matéria de Desenvolvimento e Design de Websites (DDW) e para funcionar como portfolio online.
