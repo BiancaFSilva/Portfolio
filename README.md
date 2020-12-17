@@ -1,4 +1,4 @@
-<p align="center"> <img width="15%" src="./img/allogo.png"></img> </p>
+<p align="center"> <img width="15%" src="./img/icones/allogo.png"></img> </p>
 <h3 align="center">Bianca Silva</h3>
 
 <p align="center">
