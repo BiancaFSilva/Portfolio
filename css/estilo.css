@@ -5,10 +5,10 @@ body {
     background-color: rgb(255, 255, 255);
 } 
 
-::-webkit-scrollbar { width:15px; height: 10px; }  
+::-webkit-scrollbar { width:8px; height: 10px; }  
 ::-webkit-scrollbar-track { background:#d3dbff; }   
-::-webkit-scrollbar-thumb { background: #2e1241; transition: 2s; }
-::-webkit-scrollbar-thumb:hover { background: #43d8c9; transition-timing-function: ease-in-out; }
+::-webkit-scrollbar-thumb { background: #2e1241; transition-duration: 0.8s; }
+::-webkit-scrollbar-thumb:hover { background: #43d8c9; }
 ::-webkit-scrollbar-corner { background-color: #d3dbff; }
 
 ::selection { background: rgb(91, 79, 172); color: #fff; } 
@@ -47,9 +47,7 @@ p {
 	text-align: justify;*/
 }
 
-a:hover {
-	color: #dcccf5;
-}
+a:hover { color: #43d8c9; }
 
 figcaption{
 	font-size: small;
@@ -57,15 +55,13 @@ figcaption{
 	margin-top: 5px;
 }
 /* CABEÇALHO */
-.logo img {
-    border-radius: 50%;
-}
+.logo img { border-radius: 50%; }
 
 nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2e1241 ; 
+    background: linear-gradient(#2e1241, #95389e);
     padding: 25px; 
 }
 
@@ -77,7 +73,7 @@ nav > a {
 }
 
 nav a:hover {
-	color: #dcccf5;
+	color: #43d8c9;
 }
 
 nav ul {
@@ -93,7 +89,7 @@ nav ul li {
     text-indent: 0px;    
     text-align: center;
     width: 100%;
-    font-size: 1.4em; /* em é uma medida responsiva */
+    font-size: 1.4em; 
     padding: 1%;
 }
 
@@ -107,7 +103,7 @@ nav ul li a {
 
 .verde {
     width: 100%;
-    background-color: #cffffe;
+    background-color: #43d8c9;
 }
 
 .roxo {
@@ -117,12 +113,14 @@ nav ul li a {
 
 /* HEADER */
 header {
-    background: linear-gradient(#2e1241, #cffffe);
+    background: url('./../img/bg-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #fff;
+    height: 20vh;
+    color: #000;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -137,12 +135,17 @@ header p {
 
 .botao {
     color:#fff ;
-    background-color: #2e1241;
+    background-color: #95389e;
     text-decoration: none;
     padding: 10px 20px;
     font-size: .9em;
     border-radius: 7%;
+    transition-duration: 0.8s;
 }
+.botao:hover {
+    color:#000 ;
+    background-color: #43d8c9;
+} 
 
 /* SOBRE */
 #sobre {
@@ -176,15 +179,12 @@ header p {
 #sobre .foto {
     float: right;
     width: 75%;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   	
+    transition-duration: 2s;  
 }
 
 .foto img:hover {
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    transform: rotate(10deg);
+	transform: scale(1.1);
 }
 
 #sobre .texto {
@@ -447,7 +447,7 @@ iframe {
 }
 
 #contato a:hover {
-	color: #dcccf5;
+	color: #43d8c9;
 }
 
 #contato h2 {
@@ -496,10 +496,8 @@ footer img {
     }
     /* Header */
     header {
-        height: 500px;
-        height: 50vh;
+        height: 120vh;
         justify-content: center;
-        color: #fff;
     }
     /* Sobre */
     #sobre {
