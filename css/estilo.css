@@ -46,8 +46,7 @@ figcaption{
 	margin-top: 5px;
 }
 /* CABEÇALHO */
-.logo img { border-radius: 50%; }
-
+.logo img { width: 35%; padding: 0 35% 5% 33%; }
 nav {
     display: flex;
     flex-direction: column;
@@ -482,12 +481,13 @@ footer img {
         width: 70%;
     }
     .logo img {
-        width: 65%;
+        width: 20%;
+        padding: 0;
         vertical-align: middle;
     }
     /* Header */
     header {
-        height: 120vh;
+        height: 110vh;
         justify-content: center;
     }
     /* Sobre */

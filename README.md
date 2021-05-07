@@ -1,4 +1,4 @@
-<p align="center"> <img width="15%" src="./img/icones/allogo.png"></img> </p>
+<p align="center"> <img width="15%" src="./img/icones/logo.png"></img> </p>
 <h3 align="center">Bianca Silva</h3>
 
 <p align="center">
@@ -11,8 +11,8 @@
 ---
 
 <p align="center"> 
-    <img width="65%" src="https://user-images.githubusercontent.com/60801421/102545391-f124f280-4094-11eb-8e90-2ae074b8b2c0.png"></img> 
-    <img width="15%" src="https://user-images.githubusercontent.com/60801421/102546555-97bdc300-4096-11eb-9518-00712d730919.jpeg"></img> 
+    <img width="65%" src="https://user-images.githubusercontent.com/60801421/117516802-7e97af00-af70-11eb-884f-dd973fedb6ed.png"></img> 
+    <img width="20%" src="https://user-images.githubusercontent.com/60801421/117516887-c9b1c200-af70-11eb-804e-b4df6d879040.png"></img> 
 </p>    
 
 <h5 align="center">
@@ -30,11 +30,11 @@ Site responsivo desenvolvido como complemento curricular para a matéria de Dese
 ![#95389E](https://placehold.it/15/95389E/000000?text=+) `#95389E`
 ![#D3DBFF](https://placehold.it/15/D3DBFF/000000?text=+) `#D3DBFF` <br>
 ![#43D8C9](https://placehold.it/15/43D8C9/000000?text=+) `#43D8C9`
-![#CFFFFE](https://placehold.it/15/CFFFFE/000000?text=+) `#CFFFFE`<br>
+![#CFFFFE](https://placehold.it/15/CFFFFE/000000?text=+) `#CFFFFE` <br>
 ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF`
 
 
 ---
 
 ### :memo: License
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Esse projeto está sob a [licença MIT](LICENSE). Acesse para mais detalhes.
