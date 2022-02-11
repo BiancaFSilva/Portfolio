@@ -1,43 +1,32 @@
-<p align="center"> <img width="15%" src="./img/icones/logo.png"></img> </p>
-<h3 align="center"> Bianca Silva </h3>
+<div class="row">
+    <img align="left" width="8%" src="./img/icones/logo.png"></img>
+    <h3> Bianca Silva </h3>
+    <p>
+        <a href="https://www.linkedin.com/in/biancafsilva"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> 
+        <a href="mailto:biancaflorianodasilva@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/> </a>
+        <a href="https://www.behance.net/biancafsilva"> <img src="https://img.shields.io/badge/Behance-053EFF?style=for-the-badge&logo=behance&logoColor=white"/> </a> 
+    </p>
+</div>
 
-<p align="center">
-    <a href="https://www.linkedin.com/in/biancafsilva"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> 
-    <!-- <a href="https://discord.com/@me/618556621907558401"> <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/> </a> -->
-    <a href="mailto:biancaflorianodasilva@gmail.com?subject=Hello"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/> </a>
-    <a href="https://www.behance.net/biancafsilva"> <img src="https://img.shields.io/badge/Behance-053EFF?style=for-the-badge&logo=behance&logoColor=white"/> </a> 
+---
+
+### Sobre
+Site responsivo desenvolvido como complemento curricular e portfólio online, onde serão apresentados alguns projetos, cursos, histórico profissional e escolar, certificados e outras informações de contato.
+
+ - [Sobre](https://biancafsilva.github.io/Site/#sobre) 
+ - [Projetos](https://biancafsilva.github.io/Site/#projeto) 
+ - [Contato](https://biancafsilva.github.io/Site/#contato)
+
+### Tecnologias
+<p>
+    <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+    <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+    <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
 </p>
 
-<p align="center">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/BiancaFSilva/Site">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/BiancaFSilva/Site">
-</p>
-
----
-
-<p align="center"> 
-    <img width="65%" src="https://user-images.githubusercontent.com/60801421/117516802-7e97af00-af70-11eb-884f-dd973fedb6ed.png"></img> 
-    <img width="20%" src="https://user-images.githubusercontent.com/60801421/117516887-c9b1c200-af70-11eb-804e-b4df6d879040.png"></img> 
-</p>    
-
-<h5 align="center">
-    <a href="https://biancafsilva.github.io/Site/#sobre"> Sobre </a> - 
-    <a href="https://biancafsilva.github.io/Site/#especial"> Trabalhos e Hobbies </a> - 
-    <a href="https://biancafsilva.github.io/Site/#socio"> Competências Socioemocionais </a> - 
-    <a href="https://biancafsilva.github.io/Site/#projeto"> Projetos </a> - 
-    <a href="https://biancafsilva.github.io/Site/#contato"> Contato </a>
-</h5>
-
----
-
-## Objetivo 
-Site responsivo desenvolvido como complemento curricular para a matéria de Desenvolvimento e Design de Websites (DDW) e para funcionar como portfolio online.
-
----
-
-### :memo: License
+### Licença
 Esse projeto está sob a [licença MIT](LICENSE). Acesse para mais detalhes.
-
+  
 ---
 
-<p align="center"> © Bianca Silva </p>
+<p align="center"> ©BiancaFSilva </p>
