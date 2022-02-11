@@ -13,8 +13,8 @@
 ### Sobre
 Site responsivo desenvolvido como complemento curricular e portfólio online, onde serão apresentados alguns projetos, cursos, histórico profissional e escolar, certificados e outras informações de contato.
 
- - [Projetos](https://biancafsilva.github.io/Site/#projeto) 
- - [Contato](https://biancafsilva.github.io/Site/#contato)
+ - [Projetos](https://biancafsilva.github.io/Portfolio/#projeto) 
+ - [Contato](https://biancafsilva.github.io/Portfolio/#contato)
 
 ### Tecnologias
 <p>
