@@ -1,5 +1,6 @@
 <div class="row">
-    <img align="left" width="8%" src="./img/icones/logo.png"></img>
+    <img align="right" width="8%" alt="QRCode_Porfolio" src="https://user-images.githubusercontent.com/60801421/154813374-5d238b54-48f9-44e5-befb-c5fe0aa21e63.png">
+    <img align="left" width="8%" alt="Icon BiancaFSilva" src="./img/icones/logo.png"></img>
     <h3> Bianca Silva </h3>
     <p>
         <a href="https://www.linkedin.com/in/biancafsilva"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> 
@@ -10,21 +11,22 @@
 
 ---
 
-### Sobre
-Site responsivo desenvolvido como complemento curricular e portfólio online, onde serão apresentados alguns projetos, cursos, histórico profissional e escolar, certificados e outras informações de contato.
 
- - [Projetos](https://biancafsilva.github.io/Portfolio/#projeto) 
- - [Contato](https://biancafsilva.github.io/Portfolio/#contato)
+### About
+Responsive website developed as a curriculum complement and online portfolio, where some projects, courses, professional and school history, certificates and other contact information will be presented.
 
-### Tecnologias
+ - [Projects](https://biancafsilva.github.io/Portfolio/#projeto) 
+ - [Contact](https://biancafsilva.github.io/Portfolio/#contato)
+
+### Technology
 <p>
     <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
     <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
     <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
 </p>
 
-### Licença
-Esse projeto está sob a [licença MIT](LICENSE). Acesse para mais detalhes.
+### License
+This project is under the [MIT license](LICENSE). Access for more details.
   
 ---
 
