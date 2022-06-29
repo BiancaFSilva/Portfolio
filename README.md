@@ -1,6 +1,6 @@
 <div class="row">
     <img align="right" width="8%" alt="QRCode_Porfolio" src="https://user-images.githubusercontent.com/60801421/154813374-5d238b54-48f9-44e5-befb-c5fe0aa21e63.png">
-    <!--<img align="left" width="8%" alt="Icon BiancaFSilva" src="./img/icones/logo.png"></img>-->
+    <img align="left" width="8%" alt="Icon BiancaFSilva" src="./img/icones/logo.png"></img>
     <h3> Bianca Silva </h3>
     <p>
         <a href="https://www.linkedin.com/in/biancafsilva"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> 
@@ -15,8 +15,8 @@
 ### About
 Responsive website developed as a curriculum complement and online portfolio, where some projects, courses, professional and school history, certificates and other contact information will be presented.
 
- - [Projects](https://biancafsilva.github.io/Portfolio/#team) 
- - [Contact](https://biancafsilva.github.io/Portfolio/#contact)
+ - [Projects](https://biancafsilva.github.io/Portfolio/#projeto) 
+ - [Contact](https://biancafsilva.github.io/Portfolio/#contato)
 
 ### Technology
 <p>
