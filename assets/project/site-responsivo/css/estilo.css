@@ -1,0 +1,624 @@
+/* GERAL */
+
+body {
+    font-family: 'Baloo Tamma 2','Manrope', cursive;
+    background-color: rgb(255, 255, 255);
+} 
+
+::-webkit-scrollbar { width:8px; height: 10px; }  
+::-webkit-scrollbar-track { background:#d3dbff; }   
+::-webkit-scrollbar-thumb { background: #2e1241; transition-duration: 0.8s; }
+::-webkit-scrollbar-thumb:hover { background: #43d8c9; }
+::-webkit-scrollbar-corner { background-color: #d3dbff; }
+
+::selection { background: rgb(91, 79, 172); color: #fff; } 
+::-moz-selection { background: rgb(91, 79, 172); color: #fff; }
+
+.container {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+    font-family:  'Baloo Tamma 2','Manrope', cursive;
+    /* padding: 12px;
+    margin: 15px;
+    text-align: center;*/
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Baloo Tamma 2';
+    text-indent: 20px;
+    /*padding: 0 40px;
+	text-indent: 45px;
+	text-align: justify;*/
+}
+
+a:hover { color: #43d8c9; }
+
+figcaption{
+	font-size: small;
+	font-style: italic;
+	margin-top: 5px;
+}
+/* CABEÇALHO */
+.logo img { width: 35%; padding: 0 35% 5% 33%; }
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#2e1241, #95389e);
+    padding: 25px; 
+}
+
+nav > a {
+    text-decoration: none;
+    color: #e5e6e7;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+nav a:hover {
+	color: #43d8c9;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-indent: 0px;    
+    text-align: center;
+    width: 100%;
+    font-size: 1.4em; 
+    padding: 1%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 5px 0; /* 10 e 0 */
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.verde {
+    width: 100%;
+    background-color: #43d8c9;
+}
+
+.roxo {
+    width: 100%;
+    background-color: #d3dbff;
+}
+
+/* HEADER */
+header {
+    background: url('./../img/bg-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+header p {
+    margin-bottom: 2em;
+    font-size: 1.7em;
+}
+
+.botao {
+    color:#fff ;
+    background-color: #95389e;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: .9em;
+    border-radius: 7%;
+    transition-duration: 0.8s;
+}
+.botao:hover {
+    color:#000 ;
+    background-color: #43d8c9;
+} 
+
+/* SOBRE */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #0b273f;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#sobre .botao {
+    margin-top: 20px;
+    background-color: #a5a5a5;
+}
+
+#sobre h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+#sobre .foto img {
+    width: 60%;
+    border-radius: 7%;
+    border: 3px groove #0b273f;
+}
+
+#sobre .foto {
+    float: right;
+    width: 75%;
+    margin-bottom: 20px;   	
+    transition-duration: 2s;  
+}
+
+.foto img:hover {
+	transform: scale(1.1);
+}
+
+#sobre .texto {
+    float: left;
+    width: 90%;
+}
+
+#sobre .texto p {
+    line-height: 1.5;
+    margin: .1vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+/* Trabalhos e hobbies */
+#especial {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    color: #0b273f;
+}
+
+#especial div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    position: relative;
+    margin-top: 30px;
+}
+
+#especial p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#especial h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#especial h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#especial img {
+    margin: 10px 0;
+    width: 50%;
+    border-radius: 50%;
+    border: 3px groove #0b273f;
+}
+/* Competências Socioemocionais */
+#socio {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin: 0 ;
+    color: #0b273f;
+}
+
+#socio div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    position: relative;
+    margin-top: 30px;
+}
+
+#socio p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#socio h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#socio h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#socio h4 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center; 
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    color: #0b273f;
+}
+
+#projetos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    position: relative;
+    margin-top: 30px;
+}
+
+#projetos p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#projetos h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#projetos h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#projetos h4 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center; 
+}
+
+iframe {
+    border-radius: 7%;   
+}
+
+.soc img {
+    align-items: center;       
+}
+
+.emo img {
+    border: 3px groove #0b273f;
+    border-radius: 50%;
+    margin: 10px 0; 
+    width: 50%;   
+}
+
+.proj img {
+    align-items: center;   
+    border: 3px groove #0b273f;
+    border-radius: 7%;
+    margin: 10px auto;
+    width: 80%;
+}
+.proj img:hover {
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+#socio a {
+    text-decoration: none;
+    margin: 10px auto;
+    align-items: center;
+}
+
+#hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    color: #0b273f;
+}
+
+.hobby {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    position: relative;
+    margin-top: 30px;
+}
+
+.hobby h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.hobby p {
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+} 
+/* CONTATO */
+#contato {
+    background-color: #2e1241;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0;
+    align-items: justify;
+}
+
+#contato > p {
+    line-height: 1.2;
+    margin: 2vh;
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 0%;
+}
+
+#contato a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 6px; 
+    width: 42%;    
+    color: #fff; 
+    line-height: .1;
+    margin: 0;/*2vh;*/
+    font-size: 1em;
+    text-align: justify; 
+}
+
+#contato .mail a{
+    padding: 0 6px; 
+    width: 95%;  
+}
+
+#contato a:hover {
+	color: #43d8c9;
+}
+
+#contato h2 {
+    margin: 20px;
+    font-size: 2em;
+    text-align: center;  
+}
+
+#contato img {
+    margin: 2px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #2e1241;
+    color: #e5e6e7; 
+    padding: 30px;
+    font-size: small;
+    text-align: center;
+    text-indent: 0px;
+}
+
+footer img {
+	margin: 0 auto;
+	vertical-align: middle;
+	width: 30px;
+}
+
+
+@media screen and (min-width: 768px) {
+    html { scroll-behavior: smooth; }
+    /* Cabeçalho */
+    nav {
+        height: 60px;
+        height: 6vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    .logo img {
+        width: 20%;
+        padding: 0;
+        vertical-align: middle;
+    }
+    /* Header */
+    header {
+        height: 110vh;
+        justify-content: center;
+    }
+    /* Sobre */
+    #sobre {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: auto;
+        padding: auto;
+        height: 55vh;
+        justify-content: center;
+        min-height: 60vh;
+    }
+    #sobre div {
+        flex-grow: 1;
+        flex-basis: 300px;
+        padding: 0 50 0 0px;
+    }   
+    #sobre h2 {
+        text-align: center;
+        width: 100%;
+    }
+    #sobre .texto p{
+        line-height: 1.5;
+        margin: 2vh;
+        text-align: justify;
+    }
+    /* Especialidades */
+    #especial {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #especial h2, h3 {
+        text-align: center;
+        width: 100%;
+    }
+    #especial div {   
+        width: 30.90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    /* Competências Socioemocionais */
+    #socio {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #socio h2, h3, h4 {
+        width: 100%;
+        text-align: center;
+    }
+    #socio .soc {
+        align-items: center;
+        width: 30.90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #projetos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #projetos h2, h3, h4 {
+        width: 100%;
+        text-align: center;
+    }
+    #projetos .soc {
+        align-items: center;
+        width: 30.90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #hobby {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .hobby{
+        width: 47%;
+        margin: 0 auto;
+    }
+    .hobby h3 {
+        width: 100%;
+        text-align: center;
+    }
+    .hobby p {
+        line-height: 1.5;
+        margin: 2vh;
+        text-align: justify;
+    }
+    /* Contato */
+    #contato {
+        justify-content: space-around;   
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        padding: 0 auto;
+        max-height: 45vh;
+        margin: 0;         
+    }
+    #contato h2, #contato p, #contato a {
+        width: 100%;
+        max-width: 1000px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }    
+    #contato div{
+        padding: 0 auto;
+        width: 100%;
+        align-items: center;
+    } 
+    #contato .cntt, #contato .redes {
+        width: auto;
+        padding: 0 auto;
+        text-align: justify;
+    }
+    #contato .mail {
+        width: 100%;
+        padding: 0 auto;
+        text-align: center;
+    }
+}
