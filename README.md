@@ -15,8 +15,8 @@
 ### About
 Responsive website developed as a curriculum complement and online portfolio, where some projects, courses, professional and school history, certificates and other contact information will be presented.
 
- - [Projects](https://biancafsilva.github.io/Portfolio/#projeto) 
- - [Contact](https://biancafsilva.github.io/Portfolio/#contato)
+ - [Projects](https://biancafsilva.github.io/Portfolio/#team) 
+ - [Contact](https://biancafsilva.github.io/Portfolio/#contact)
 
 ### Technology
 <p>
