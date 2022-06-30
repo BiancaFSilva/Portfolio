@@ -1,6 +1,6 @@
 <div class="row">
     <img align="right" width="8%" alt="QRCode_Porfolio" src="https://user-images.githubusercontent.com/60801421/154813374-5d238b54-48f9-44e5-befb-c5fe0aa21e63.png">
-    <img align="left" width="8%" alt="Icon BiancaFSilva" src="./img/icones/logo.png"></img>
+    <!--<img align="left" width="8%" alt="Icon BiancaFSilva" src="./img/icones/logo.png"></img>-->
     <h3> Bianca Silva </h3>
     <p>
         <a href="https://www.linkedin.com/in/biancafsilva"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> 
